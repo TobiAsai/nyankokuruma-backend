@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: nyankokuruma-backend
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mariadb://localhost:3306/nyankokuruma
+    driver-class-name: org.mariadb.jdbc.Driver
+    password: huyibo
+    username: root
+
+server:
+  port: 8080
